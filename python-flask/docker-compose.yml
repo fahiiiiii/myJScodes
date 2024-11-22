@@ -1,0 +1,52 @@
+# version: '3'
+# services:
+#   user_service:
+#     build:
+#       context: ./user_service
+#     ports:
+#       - "5001:5001"
+#   destination_service:
+#     build:
+#       context: ./destination_service
+#     ports:
+#       - "5002:5002"
+#   auth_service:
+#     build:
+#       context: ./auth_service
+#     ports:
+#       - "5003:5003"
+#   api_gateway:
+#     build:
+#       context: ./api_gateway
+#     ports:
+#       - "5000:5000"
+#     depends_on:
+#       - user_service
+#       - destination_service
+#       - auth_service
+
+services:
+  user_service:
+    build:
+      context: ./user_service
+    ports:
+      - "5001:5001"
+  destination_service:
+    build:
+      context: ./destination_service
+    ports:
+      - "5002:5002"
+  auth_service:
+    build:
+      context: ./auth_service
+    ports:
+      - "5003:5003"
+  api_gateway:
+    build:
+      context: ./api_gateway
+    ports:
+      - "5000:5000"
+    depends_on:
+      - user_service
+      - destination_service
+      - auth_service

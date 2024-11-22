@@ -1,0 +1,23 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Test Admin",
+        "email": "admin@test.com",
+        "password": "scrypt:32768:8:1$VFKhzijFFFUgat4E$106ba77280a71c819afce8f0a7670eaa406c1b7de3e1c5c0a39aef2e3913e0a8df08dcce554ecee3ff1a77689be6121a5d6551b39167eda414f4607236b58849",
+        "type": "Admin"
+    },
+    "2": {
+        "id": 2,
+        "name": "Test User",
+        "email": "user@test.com",
+        "password": "scrypt:32768:8:1$4RdgkwMCiIeS4HCK$9162ba6472463201d4fa30888d3cd58f2589eeab4d05c454040d22d9463438af623b391cddaae985cbc41e75121b8a8f24ff36a36113ab4564f239392884f770",
+        "type": "User"
+    },
+    "3": {
+        "id": 3,
+        "name": "Test Save",
+        "email": "save@test.com",
+        "password": "scrypt:32768:8:1$atcHWP8oNiiO6WBb$39aa8a598c9b74576f936c8da46902d683a026eea6031b3fbe4a93d13e31dacb71b7b6eed27af9c67b4c2d877eb8fa9c36fbe6ee9ce936aacee0c21b246e2c23",
+        "type": "User"
+    }
+}

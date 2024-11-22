@@ -1,0 +1,8 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Test Destination",
+        "description": "Test Description",
+        "location": "Test Location"
+    }
+}
