@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "name": "string",
+        "description": "string",
+        "location": "string"
+    },
+    "3": {
+        "id": 3,
+        "name": "Hotel Elite Palace",
+        "description": "A 5 star quality maintaining hotel",
+        "location": "Cumilla"
+    },
+    "4": {
+        "id": 4,
+        "name": "Hotel Owasis",
+        "description": "A 4 star quality maintaining hotel",
+        "location": "Cumilla"
+    }
+}
