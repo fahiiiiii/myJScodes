@@ -1,0 +1,56 @@
+# for environment
+________________________________________________________For Linux___________________________________
+
+python3 -m venv .venv
+source .venv/bin/activate
+deactivate
+______________________________________________________For Windows__________________________________________
+
+python -m venv .venv
+source .venv/Scripts/activate 
+deactivate
+_______________________________________________________________________________________________________
+
+----------------------------for Django----------------------------------
+
+docker exec -it hotel_project-web-1 python manage.py makemigrations
+docker exec -it hotel_project-web-1 python manage.py migrate
+
+_______________________________________________________________________________________
+to create superuser====>
+
+                    docker exec -it hotel_project-web-1 python manage.py createsuperuser
+
+
+_________________________________Access the PostgreSQL container____________________________
+
+to Connect===>
+
+             docker exec -it postgres_db psql -U myuser -d mydatabase
+
+
+See all DB===>
+
+            \l
+
+to Connect espacific DB and USER===>
+            
+             \c mydatabase
+
+to see table data, you can any query like===>
+
+             SELECT * FROM hotels_hotel;
+
+to See all relations
+
+             \dt
+
+to exit====>
+
+             \q
+
+___________________________________________________
+
+
+
+
