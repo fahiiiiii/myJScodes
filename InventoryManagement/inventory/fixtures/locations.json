@@ -1,0 +1,63 @@
+
+[
+    {
+        "model": "inventory.location",
+        "pk": "USA",
+        "fields": {
+            "title": "United States",
+            "center": "POINT(-98.583333 39.8283)",
+            "location_type": "Country",
+            "country_code": "USA",
+            "state_abbr": "",
+            "city": "",
+            "parent": null,
+            "created_at": "2024-11-29T00:00:00Z",
+            "updated_at": "2024-11-29T00:00:00Z"
+        }
+    },
+    {
+        "model": "inventory.location",
+        "pk": "CAN",
+        "fields": {
+            "title": "Canada",
+            "center": "POINT(-106.3468 56.1304)",
+            "location_type": "Country",
+            "country_code": "CAN",
+            "state_abbr": "",
+            "city": "",
+            "parent": null,
+            "created_at": "2024-11-29T00:00:00Z",
+            "updated_at": "2024-11-29T00:00:00Z"
+        }
+    },
+    {
+        "model": "inventory.location",
+        "pk": "NY",
+        "fields": {
+            "title": "New York",
+            "center": "POINT(-74.006 40.7128)",
+            "location_type": "State",
+            "country_code": "USA",
+            "state_abbr": "NY",
+            "city": "",
+            "parent": "USA",
+            "created_at": "2024-11-29T00:00:00Z",
+            "updated_at": "2024-11-29T00:00:00Z"
+        }
+    },
+    {
+        "model": "inventory.location",
+        "pk": "LA",
+        "fields": {
+            "title": "Los Angeles",
+            "center": "POINT(-118.2437 34.0522)",
+            "location_type": "City",
+            "country_code": "US",
+            "state_abbr": "CAN",
+            "city": "Los Angeles",
+            "parent": "CAN",
+            "created_at": "2024-11-29T00:00:00Z",
+            "updated_at": "2024-11-29T00:00:00Z"
+        }
+    }
+]
